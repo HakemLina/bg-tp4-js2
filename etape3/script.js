@@ -73,6 +73,11 @@ function doInsert(nom, prenom, points) {
     doInsertRowTable(lignes, nom, prenom, points);
 
 }
-function ConsoleTableau(){
-     console.log(persons);
+function ConsoleTableau() {
+    console.log(persons.map(p => ({
+        nom: p.nom,
+        prenom: p.prenom,
+        points: p.points
+
+    })));
 }
