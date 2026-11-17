@@ -132,3 +132,7 @@
 .btn-del {
     background-color: red;
 }
+
+.btn-modif {
+    background-color: orange;
+}
